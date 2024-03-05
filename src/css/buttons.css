@@ -1,0 +1,53 @@
+.buttons-container{
+    width: 210px;
+    height: 210px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    margin-top: 20px;
+    position: relative;
+}
+
+.controls {
+    position: absolute;
+}
+
+#menu{
+    left: 37.4%;
+    top: 10%;
+    > div{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    :hover{
+        cursor: pointer;
+    }
+}
+
+#previous{
+    left: 5%;
+    top: 40%;
+    font-size: 40px;
+}
+
+#next{
+    right: 5%;
+    top: 40%;
+    font-size: 40px;
+}
+
+#play-pause{
+    bottom: 1%;
+    left: 43%;
+    font-size: 40px;
+}
+
+#ok-button{
+    background-color: lightgrey;
+    left: calc(50% - 40px);
+    top: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
