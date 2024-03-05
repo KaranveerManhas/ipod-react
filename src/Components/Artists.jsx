@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 
+// Simple Artists component
 export default class Artists extends Component {
   render() {
     return (

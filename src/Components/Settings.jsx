@@ -10,7 +10,7 @@ export default class Settings extends Component {
   }
 }
 
-
+// Styles object
 const styles = {
     screenContainer: {
         display: 'flex',
