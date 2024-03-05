@@ -56,6 +56,11 @@ export default class Ipod extends Component {
   }
 
   changeMenuForward = (fromMenu, toMenu) => {
+
+    if (this.state.currentMenu === 4){
+      this.togglePlayPause();
+    }
+
     if(toMenu === 0){
       return;
     }

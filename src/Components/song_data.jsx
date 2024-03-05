@@ -1,3 +1,5 @@
+// This is a list of song objects that contain the songs' information
+// This object will be used to play songs in the Music player component
 export const songs = [
     {
         name: 'Chithiyan',
